@@ -1,0 +1,38 @@
+/* CSS For The Product Section */
+
+.boxBestSelling {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    border: solid 1px rgb(128, 128, 128);
+    background-color: #FFFFFF;
+    color: #353535;
+
+}
+.boxImage {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.boxContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    justify-content: space-between;
+}
+.showProductsList {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    height: 30px;
+}
+.imageShowProductList {
+    height: 25px;
+}

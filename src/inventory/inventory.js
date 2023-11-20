@@ -36,6 +36,7 @@ export const bestSellingTv = {
     sold: 17,
 }
 
+
 // STATISCHE VOORRAAD TV'S
 export let inventory = [
     {
@@ -108,7 +109,7 @@ export let inventory = [
             }
         ],
         originalStock: 4,
-        sold: 4,
+        sold: 5,
     },
     {
         type: 'QE55Q60T',
@@ -327,5 +328,7 @@ export let inventory = [
         sold: 8,
     },
 ];
+
+
 
 
